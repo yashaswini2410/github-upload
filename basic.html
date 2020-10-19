@@ -3,12 +3,18 @@
 <html>
      <head>
      <title>Basic Page</title>
+     <style>
+         p{
+             color:blue;
+        
+         }
+     </style>
      </head>
 
      <body>
-         <div>
-             hi this is  html basic page 
-         </div>
+         <p>
+             Hi this is  HTML basic page .HTML is a scripting language.HTML is caseinsencitive.
+         </p>
          <!--size goes onn decresingfrom h1 to h6-->
          <h1> ya learning html</h1>
          <h2>ya learning html</h2>
@@ -85,8 +91,53 @@
          <div>
 
            <form>
-
+            <label>enter the name</label>
              <input type="text" name="name" placeholder="enter the name">
+             <label>enter the email</label>
+             <input type="email" name="email" placeholder="enter the email">
+             <label>enter the password</label>
+          <input type="password"  name="password" placeholder="enter the password">
+          <br> 
+          <!--radio button-->
+             <label>select gender</label>
+             <input type="radio" name="gender" >male
+             <input type="radio" name ="gender">female
+             <input type="radio" name="gender">others
+             <br>
+             <!--to select multiple option-->
+             <label>select the course</label>
+             <input type="checkbox" name="java">java
+             <input type="checkbox" name="html">html
+             <input type="checkbox" name="css">css
+             <br>
+
+             <label>enter the age</label>
+             <input type="number" name="age">
+             <br>
+
+             <label>enter the DOB</label>
+             <input type="date" name="dob">
+             <br>
+
+             <!--to select in the list-->
+             <label>select the city </label>
+             <select>
+                 <option>--select the city--</option>
+                 <option>banglore</option>
+                 <option>manglore</option>
+                 <option>udupi</option>
+                 <option>thumkur</option>
+             </select>
+             <br>
+
+             <!--to write address-->
+             <label>address</label>
+             <textarea rows="5 "cols="20">
+             </textarea>
+             <br>
+
+             <input type="button" value="submit">
+             <input type="reset" value="cancel">
 
            </form>
 
